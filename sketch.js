@@ -76,7 +76,7 @@ function draw() {
   computerArcher.display()
 
  
- for (var i=0; i<playerArrows; i++) 
+ for (var i=0; i<playerArrows.length; i++) 
  {
  showArrows(arrows[i], playerArrows);
  }
