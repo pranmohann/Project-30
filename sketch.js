@@ -78,7 +78,7 @@ function draw() {
  
  for (var i=0; i<playerArrows.length; i++) 
  {
- showArrows(arrows[i], playerArrows);
+ showArrows(i, playerArrows);
  }
 
 
